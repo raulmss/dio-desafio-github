@@ -1,1 +1,53 @@
-Local para anotações teóricas e práticas
+#Estruturas de dados
+
+Definição: É uma estrutura organizada que armazena dados em um dispositivo possibilitando a sua utilização de forma correta.
+
+Existem estruturas para grandes e pequenas quantidades de dados e também para outros fins: "data mining", busca e etc.
+
+##Organização
+Para que haja uma organização dessas estruturas, é necessário que existam operações sobre elas:
+-Inserir dados;
+-Excluir dados;
+-Localizar elemento;
+-Percorrer elementos contidos na estrutura;
+-Classificar os elementos por uma determinada propriedade (ordem alfábética, númerica, idade e etc);
+-Outras operações.
+
+##Tipos
+
+###Vetores e Matrizes (Arrays):
+Estrutura de dados que comporta várias variáveis de mesmo tipo.
+
+###Registro
+Um tipo que oferece um formato especial para armazenar dados na memória. Diferentemente dos arrays, os registros nos proporcionam
+a oportunidade de armazenar dados de tipos diferentes.
+
+###Lista
+Estrutura similar aos arrays, mas tem tamanho ajustável.
+Existem assim 2 tipos:
+####Listas ligadas: Nesse tipo de lista, existe um nó que funciona silimarmente com o índice. Esse nó conhece o valor armazenado
+ e conhece também o valor posterior a ele (ligado a ele).
+####Listas duplamente ligadas: A grande diferença entre essa e a lista ligada é que a duplamente ligada é bidirecional, ou seja, ela tem uma
+referência tanto com o nó sucessor, quanto com o nó antecessor.
+
+###Pilha
+Esse item permite acesso a somente um dado armazenado. O item só pode ser lido ou removido uma vez.
+####Existem dois tipos de pilha:
+-LIFO (last in, first out) ou UEPS - O último elemento adicionado a pilha é o primeiro a sair;
+-FIFO (first in, first out) ou PEPS - O primeiro elemento adicionado a pilha é também o primeiro a sair;
+
+###Fila
+Essa estrutura de dados é similar a Pilha FIFO, onde o primeiro elemento a ser inserido é também o primeiro a ser removido. Segue
+a analogia de uma fila comum.
+
+###Árvore
+É uma estrutura de dados que tem uma organização hierárquica. O nó que fica ao topo/início chama-se raiz e os seus subordinados são
+chamados de nós ou folhas.
+Essa estrutura facilita a busca.
+
+###Tabela Hash
+Também conhecida como tabela de espalhamento ou dispersão, que associa chaves de pesquisa a valores em uma estrutura de dados.
+Os elementos não são guardados de forma ordenada, podemos achar a partir de uma chave um elemento/posição desejado
+
+###Grafos
+São estruturas que permitem programar relação entre objetos, chamados assim de vértices ou nós, e os relacionamentos são as arestas.
